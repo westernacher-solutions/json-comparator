@@ -1,4 +1,7 @@
-// Apply the groovy plugin to add support for Groovy
+plugins {
+    id 'net.researchgate.release' version '2.4.0'
+}
+
 apply plugin: 'groovy'
 
 repositories {
